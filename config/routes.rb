@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   # get "/", to: "posts#index"
 
   get "/statics", to: "statics#home"
+  get "/statics/:price", to: "statics#home"
 
   root "customers#index"
 
